@@ -54,5 +54,5 @@ void loop()
     Serial.print("Humi: ");
     Serial.println(node.getResponseBuffer(1)/10.0f);
   }
-  delay(1000);
+  delay(500);
 }

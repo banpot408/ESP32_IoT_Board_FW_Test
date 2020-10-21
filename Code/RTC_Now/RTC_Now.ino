@@ -30,9 +30,9 @@ void loop () {
     Serial.print(now.minute(), DEC);
     Serial.print(':');
     Serial.print(now.second(), DEC);
-    Serial.println();
+
     
-    Serial.print(" since midnight 1/1/1970 = ");
+    Serial.print(" ==>  since midnight 1/1/1970 = ");
     Serial.print(now.unixtime());
     Serial.print("s = ");
     Serial.print(now.unixtime() / 86400L);
